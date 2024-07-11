@@ -1,0 +1,178 @@
+
+
+.azeret-mono-f {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+/* header styling */
+
+
+.header{
+    background-image: url(../assets/Hero-bg.png);
+    background-position: center;
+    padding: 221px 26px;
+}
+
+.header-section{
+    padding: 32px;
+    justify-content: center;
+    
+}
+.img-div{
+   display: flex;
+   justify-content: center;
+}
+
+.header-title{
+    font-size: 48px;
+    text-align: center;
+    color: #0D1321;
+    font-weight: bolder;
+
+}
+
+.header-title-description{
+    font-weight: 100;
+    font-size: 16px;
+    color: #0D1321;
+  
+}
+
+.header-img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* shared styles*/
+
+.text-center{
+    text-align: center;
+}
+
+.btn-primary{
+    background-color: #0D1321;
+    border-radius: 8px;
+    font-weight: 600;
+    color: white;
+    padding: 24px 21px;
+    font-size: 20px;
+}
+/* main section styling */
+.main{
+    padding: 80px 97px;
+}
+
+.section1{
+    justify-content: center;
+    padding-bottom: 48px;
+    margin: 0 48px;
+}
+
+.main-section1{
+display: flex;
+justify-content:center;
+flex-direction: column;
+
+}
+
+.main-section1-title{
+    font-weight: bolder;
+    font-size: 32;
+    color: #0D1321;
+    
+}
+.main-scetion1-des{
+    font-size: 16px;
+    font-weight: 100;
+    color: #0D1321;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.container-child{
+    display: flex;
+    justify-content:center;
+    
+
+}
+
+
+.one-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.learn-more-btn{
+    background-color: white;
+    border-radius: 0px;
+    font-weight: 600;
+    color:#0D1321; ;
+    padding: 12px 20px;
+    font-size: 20px;
+
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.section2-video{
+   display: flex;
+   justify-content: center;
+   gap:30px
+}
+
+
+.section2-container{
+    display: flex;
+    justify-content: space-around;
+}
+.sec2-contain-child{
+    padding: 24px;
+    
+}
+.title{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.section4{
+    background-image:url(../assets/handshake.jpg);
+  
+
+    
+   
+    
+}
+.form{
+    display: flex;
+    align-content: center;
+}
+
+form , footer textarea{
+    border-radius: 5px;
+    /* display: block; */
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+/* footer */
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-img{
+    display: flex;
+    margin: 15px;
+    gap: 50px;
+}
